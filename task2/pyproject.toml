@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "screenshots-tests"
+version = "0.1.0"
+description = ""
+authors = ["dasha <dasha.ved93@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.1.1"
+pytest-playwright = "^0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
